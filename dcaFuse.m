@@ -65,12 +65,13 @@ q = size(Y,1);
 
 %% Compute mean vectors for each class and for all training data
 
-c = max(label);
+c = numel(unique(label));
+classes = unique(label);
 cellX = cell(1,c);
 cellY = cell(1,c);
 nSample = zeros(1,c);
 for i = 1:c
-    index = find(label==i);
+    index = find(label==classes(i));
     nSample(i) = length(index);
     cellX{1,i} = X(:,index);
     cellY{1,i} = Y(:,index);
