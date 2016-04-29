@@ -65,8 +65,8 @@ q = size(Y,1);
 
 %% Compute mean vectors for each class and for all training data
 
-c = numel(unique(label));
 classes = unique(label);
+c = numel(classes);
 cellX = cell(1,c);
 cellY = cell(1,c);
 nSample = zeros(1,c);
