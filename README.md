@@ -5,9 +5,15 @@ DCAFUSE applies feature level fusion using a method based on Discriminant Correl
 
 Details can be found in:
 
-M. Haghighat, M. Abdel-Mottaleb, W. Alhalabi, "Discriminant Correlation Analysis: Real-Time Feature Level Fusion for Multimodal Biometric Recognition," IEEE Transactions on Information Forensics and Security, 2016.
+M. Haghighat, M. Abdel-Mottaleb, W. Alhalabi, "Discriminant Correlation Analysis: Real-Time Feature Level Fusion for Multimodal Biometric Recognition," IEEE Transactions on Information Forensics and Security, vol. 11, no. 9, pp. 1984-1996, Sept. 2016. 
+http://dx.doi.org/10.1109/TIFS.2016.2569061
+
+and
+
+M. Haghighat, M. Abdel-Mottaleb W. Alhalabi, "Discriminant Correlation Analysis for Feature Level Fusion with application to multimodal biometrics," IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2016, pp. 1866-1870. 
+http://dx.doi.org/10.1109/ICASSP.2016.7472000
 
 
-(C)	Mohammad Haghighat, University of Miami
-      	haghighat@ieee.org
-      	PLEASE CITE THE ABOVE PAPER IF YOU USE THIS CODE.
+(C)     Mohammad Haghighat, University of Miami
+        haghighat@ieee.org
+        PLEASE CITE THE ABOVE PAPERS IF YOU USE THIS CODE.
