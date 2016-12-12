@@ -28,17 +28,17 @@ function [Ax,Ay,Xs,Ys] = dcaFuse(X,Y,label)
 %   >> [Ax, Ay, trainXdca, trainYdca] = dcaFuse(trainX, trainY, label);
 % 
 %   % Project the test data into the DCA subspace
-%   >> testXdca = Ax * testXdca;
-%   >> testYdca = Ay * testYdca;
+%   >> testXdca = Ax * testX;
+%   >> testYdca = Ay * testY;
 % 
-%   % Fuse the two transformation matrices:
+%   % Fuse the two transformed feature matrices with either concatenation or summation:
 %   % Fusion by concatenation (Z1)
-%   >> trainZ = [trainXcca ; trainYcca];
-%   >> testZ  = [testXcca ; testYcca];
+%   >> trainZ1 = [trainXdca ; trainYdca];
+%   >> testZ1  = [testXdca ; testYdca];
 % 
 %   % Fusion by summation (Z2)
-%   >> trainZ = [trainXcca + trainYcca];
-%   >> testZ  = [testXcca + testYcca];
+%   >> trainZ2 = [trainXdca + trainYdca];
+%   >> testZ2  = [testXdca + testYdca];
 % 
 % 
 % 
