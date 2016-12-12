@@ -75,8 +75,9 @@ elseif n == 1
 end
 q = size(Y,1);
 
-X = X - repmat(mean(X,2), 1, n);
-Y = Y - repmat(mean(Y,2), 1, n);
+% Normalize features
+X = (X - repmat(mean(X,2), 1, n))./repmat(std(X,0,2), 1, n);
+Y = (Y - repmat(mean(Y,2), 1, n))./repmat(std(Y,0,2), 1, n);
 
 %% Compute mean vectors for each class and for all training data
 
