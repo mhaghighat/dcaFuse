@@ -17,3 +17,5 @@ http://dx.doi.org/10.1109/ICASSP.2016.7472000
 (C)     Mohammad Haghighat, University of Miami
         haghighat@ieee.org
         PLEASE CITE THE ABOVE PAPERS IF YOU USE THIS CODE.
+
+[![View Feature fusion using Discriminant Correlation Analysis (DCA) on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/55405-feature-fusion-using-discriminant-correlation-analysis-dca)
